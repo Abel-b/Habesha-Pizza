@@ -45,7 +45,7 @@ img {
 .image-row {
     padding-left: 200px;
 }
-.services-img {
+.order-img {
     background-image: url('../images/backgrounds/boxxed.jpg');
     color: orange;
     height: 700px;
@@ -54,7 +54,7 @@ img {
     background-repeat: no-repeat;
     text-align: center;
 }
-.services-text {
+.order-text {
     padding-top: 350px;
     padding-right: 450px;
     
