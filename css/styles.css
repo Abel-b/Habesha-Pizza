@@ -30,7 +30,14 @@ img {
 }
 .about-text {
     text-align: center;
-
+    background-image: url('../images/backgrounds/yolo.jpg');
+    height: 400px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    padding-top: 50px;
 }
 .grid {
     padding-left: 150px;
@@ -39,16 +46,18 @@ img {
     padding-left: 200px;
 }
 .services-img {
-    background-image: url('../images/backgrounds/s_image.jpg');
-    color: white;
-    height: 400px;
+    background-image: url('../images/backgrounds/boxxed.jpg');
+    color: orange;
+    height: 700px;
     width: auto;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
 }
 .services-text {
-    padding-top: 100px;
+    padding-top: 350px;
+    padding-right: 450px;
+    
 }
 .design, .development, .product {
     display: none;

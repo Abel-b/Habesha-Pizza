@@ -23,6 +23,11 @@ $(document).ready(function () {
         $(".contentsH").fadeToggle();
         $(".special").fadeToggle();
     });
+
+
+
+
+
     $("form.inputs").submit(function (event) {
         event.preventDefault();
         var name = $(".name").val();
