@@ -16,11 +16,17 @@ img {
     width: auto;
     cursor: pointer;
 }
-p {
+.contentsC, .contentsP, .contentsM, .contentsV, .contentsE, .contentsH {
     display: none;
 }
-.about-us {
+.about{
     text-align: center;
+    background-image: url('../images/backgrounds/Welcome.png');
+    height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .grid {
     padding-left: 150px;
