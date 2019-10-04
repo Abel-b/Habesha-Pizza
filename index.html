@@ -16,7 +16,7 @@
             <nav>
                 <a href="#menu">Habesha Menu ~</a>
                 <a href="#about">About Habesha ~</a>
-                <a href="#menu">Order ~</a>
+                <a href="#content">Order ~</a>
                 <a href="#contact">Contact Habesha ~</a>
             </nav>
         </div>
@@ -97,66 +97,55 @@
     <div id="about">
         <h1 style="font-size:100px">Why Habesha Pizza?</h1>
     </div>
-    <div class="about-text">
-        <h2>About Habesha Pizza</h2>
-        <P>Habesha Pizza was established on April 19, 2007. Our first house was located in Ethiopia, Addis Ababa.
-        </P>
-        <h3>Why Habesha?</h3>
-        <p>Habesha (ሐበሻ) is the name give for Ethiopian people. Since we first launched in Ethiopia, we named our
-            Pizza
-            house
-            the HABESHA PIZZA HOUSE.</p>
-        <p>Habesha Pizza has it's pizza houses in Ethiopia, Kenya, South-Africa and Egypt.</p>
-        <p>Now, we have started an online ordering and delivery.<br /> ENJOY!</p>
-    </div>
-
-    <div class="order-img">
-        <div class="order-text">
-            <h1 style="font-size:70px"><b>Order Here</b></h1>
-            <div class="form-group" id="address">
-                <h3>Delivery Address</h3>
-                <form id="address-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="first-name">First Name</label><input required type="text"
-                                placeholder="First name" class="form-control address-spacing">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="last-name">Last Name</label><input required type="text" placeholder="Last name"
-                                class="form-control address-spacing">
-                        </div>
+    <div id="content">
+        <h1 class="page-header">Order Your Habesha Pizza</h1>
+        <h2 id="landing-tagline">Serving your daily pizza cravings! Available through online order now.</h2>
+        <p>*Delivery only available in selected states*</p>
+        <button type="btn" class="btn btn-primary" id="pickup-btn">Pickup</button>
+        <button type="btn" class="btn btn-danger" id="delivery-btn">Delivery</button>
+        <div class="form-group" id="address">
+            <h3>Delivery Address</h3>
+            <form id="address-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="first-name">First Name</label><input required type="text"
+                            class="form-control address-spacing">
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="street-address">Address</label><input required type="text" placeholder="Address"
-                                class="form-control" id="street-add">
-                        </div>
-                        <div class="col-md-3">
-                            <label for="city-name">City</label><input required type="text" placeholder="City"
-                                class="form-control" id="city-add">
-                        </div>
-                        <div class="col-md-3">
-                            <label for="state-name">State</label>
-                            <select required class="form-control delivery-address" id="state-select">
-                                <option></option>
-                                <option>Nairobi</option>
-                                <option>Mombassa</option>
-                                <option>Kisumu</option>
-                            </select>
-                        </div>
+                    <div class="col-md-6">
+                        <label for="last-name">Last Name</label><input required type="text"
+                            class="form-control address-spacing">
                     </div>
-            </div>
-            <button type="submit" class="btn btn-primary" id="order-proceed-btn">Submit</button>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="street-address">Address</label><input required type="text" class="form-control"
+                            id="street-add">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="city-name">City</label><input required type="text" class="form-control"
+                            id="city-add">
+                    </div>
+                    <div class="col-md-1">
+                        <label for="state-name">State</label>
+                        <select required class="form-control delivery-address" id="state-select">
+                            <option></option>
+                            <option>Nairobi</option>
+                            <option>Mombassa</option>
+                            <option>Kisumu</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="order-proceed-btn">Submit</button>
             </form>
         </div>
     </div>
     <div class="jumbotron" id="order-content">
         <h1 class="page-header">Order Options</h1>
         <div class="row">
-            <div class="col-xs-6">
+            <div class="col-md-6">
                 <h2>Pizza</h2>
                 <div class="row container" id="default-pizzas">
-                    <div class="col-xs-4">
+                    <div class="col-md-4">
                         <button type="btn" class="btn btn-success pizza-option" id="cheese-default">Cheese
                             Pizza</button>
                         <div class="default-pizzas" id="cheese-default-size">
@@ -168,16 +157,19 @@
                                 18"</button>
                         </div>
                     </div>
-                    <div class="col-xs-4">
-                        <button type="btn" class="btn btn-success pizza-option" id="pep-default">Pepp. Pizza</button>
+                    <div class="col-md-4">
+                        <button type="btn" class="btn btn-success pizza-option" id="pep-default">Pepp.
+                            Pizza</button>
                         <div class="default-pizzas" id="pep-default-size">
-                            <button type="btn" class="btn btn-danger indiv-pizza-default" id="pep-sm">Small 10"</button>
+                            <button type="btn" class="btn btn-danger indiv-pizza-default" id="pep-sm">Small
+                                10"</button>
                             <button type="btn" class="btn btn-danger indiv-pizza-default" id="pep-md">Medium
                                 14"</button>
-                            <button type="btn" class="btn btn-danger indiv-pizza-default" id="pep-lg">Large 18"</button>
+                            <button type="btn" class="btn btn-danger indiv-pizza-default" id="pep-lg">Large
+                                18"</button>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4">
                         <button type="btn" class="btn btn-success pizza-option" id="veggie-default">Veggie
                             Pizza</button>
                         <div class="default-pizzas" id="veggie-default-size">
@@ -191,116 +183,125 @@
                     </div>
                 </div>
                 <button type="btn" class="btn btn-primary" id="custom-pizza-btn">Custom Pizza</button>
+                <form class="form-group" id="custom-pizza">
+                    <div id="form-content">
+                        <h3 id="form-header">Custom Pizza Form</h3>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Size</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="size">
+                                    <option></option>
+                                    <option value="Small 10 in.">Small, 10"</option>
+                                    <option value="Medium 14 in.">Medium, 14"</option>
+                                    <option value="Large 18 in.">Large, 18"</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Sauce</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="sauce">
+                                    <option></option>
+                                    <option value="tomato sauce">Tomato</option>
+                                    <option value="alfredo sauce">Alfredo</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Cheese</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="cheese">
+                                    <option></option>
+                                    <option value="cheese">Cheese</option>
+                                    <option value="light cheese">Light Cheese</option>
+                                    <option value="extra cheese">Extra Cheese</option>
+                                    <option value="no cheese">None</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Veggie 1 (+$1)</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="veggie1">
+                                    <option></option>
+                                    <option value="onions">Onions</option>
+                                    <option value="green peppers">Green Peppers</option>
+                                    <option value="olives">Black Olives</option>
+                                    <option value="spinach">Spinach</option>
+                                    <option value="mushrooms">Mushrooms</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Veggie 2 (+$1)</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="veggie2">
+                                    <option></option>
+                                    <option value="onions">Onions</option>
+                                    <option value="green peppers">Green Peppers</option>
+                                    <option value="olives">Black Olives</option>
+                                    <option value="spinach">Spinach</option>
+                                    <option value="mushrooms">Mushrooms</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Meat (+$2)</p>
+                            </div>
+                            <div class="col-md-6" class="form-option">
+                                <select required class="form-control" id="meat">
+                                    <option></option>
+                                    <option value="chicken">Chicken</option>
+                                    <option value="pepperoni">Pepperoni</option>
+                                    <option value="bacon">Canadian Bacon</option>
+                                    <option value="sausage">Sausage</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger" id="submit-custom-pizza">Place Order</button>
+                </form>
             </div>
-            <form class="form-group" id="custom-pizza">
-                <div id="form-content">
-                    <h3 id="form-header">Custom Pizza Form</h3>
-                    <div class="row container">
-                        <div class="col-xs-6">
-                            <p>Size</p>
-                        </div>
-                        <div class="col-xs-6" class="form-option">
-                            <select required class="form-control" id="size">
-                                <option></option>
-                                <option value="Small 10 in.">Small, 10"</option>
-                                <option value="Medium 14 in.">Medium, 14"</option>
-                                <option value="Large 18 in.">Large, 18"</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row container">
-                        <div class="col-xs-6">
-                            <p>Sauce</p>
-                        </div>
-                        <div class="col-xs-6" class="form-option">
-                            <select required class="form-control" id="sauce">
-                                <option></option>
-                                <option value="tomato sauce">Tomato</option>
-                                <option value="alfredo sauce">Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row container">
-                        <div class="col-xs-6">
-                            <p>Cheese</p>
-                        </div>
-                        <div class="col-xs-6" class="form-option">
-                            <select required class="form-control" id="cheese">
-                                <option></option>
-                                <option value="cheese">Cheese</option>
-                                <option value="light cheese">Light Cheese</option>
-                                <option value="extra cheese">Extra Cheese</option>
-                                <option value="no cheese">None</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row container">
-                        <div class="col-md-6">
-                            <p>Veggie 1 (+$1)</p>
-                        </div>
-                        <div class="col-md-6" class="form-option">
-                            <select required class="form-control" id="veggie1">
-                                <option></option>
-                                <option value="onions">Onions</option>
-                                <option value="green peppers">Green Peppers</option>
-                                <option value="olives">Black Olives</option>
-                                <option value="spinach">Spinach</option>
-                                <option value="mushrooms">Mushrooms</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row container">
-                        <div class="col-md-6">
-                            <p>Veggie 2 (+$1)</p>
-                        </div>
-                        <div class="col-md-6" class="form-option">
-                            <select required class="form-control" id="veggie2">
-                                <option></option>
-                                <option value="onions">Onions</option>
-                                <option value="green peppers">Green Peppers</option>
-                                <option value="olives">Black Olives</option>
-                                <option value="spinach">Spinach</option>
-                                <option value="mushrooms">Mushrooms</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row container">
-                        <div class="col-md-6">
-                            <p>Meat (+$2)</p>
-                        </div>
-                        <div class="col-md-6" class="form-option">
-                            <select required class="form-control" id="meat">
-                                <option></option>
-                                <option value="chicken">Chicken</option>
-                                <option value="pepperoni">Pepperoni</option>
-                                <option value="bacon">Canadian Bacon</option>
-                                <option value="sausage">Sausage</option>
-                            </select>
-                        </div>
-                    </div>
+            <div class="col-md-6" id="price-content">
+                <h1 class="page-header">Cart</h1>
+                <h2>Price: $ <span id="final-cost"></span></h2>
+                <div id="order-details">
+                    <p><a id="pizza-details-dropdown">Custom Pizza</a></p>
+                    <ul id="pizza-details"></ul>
+                    <p><a id="default-pizza-dropdown">Pizza</a></p>
+                    <ul id="default-pizza-details"></ul>
+                    <p><a id="sides-dropdown">Sides</a></p>
+                    <ul id="sides-details"></ul>
                 </div>
-                <button type="submit" class="btn btn-danger" id="submit-custom-pizza">Place Order</button>
-            </form>
-        </div>
-        <div class="col-md-6" id="price-content">
-            <h1 class="page-header">Cart</h1>
-            <h2>Price: $ <span id="final-cost"></span></h2>
-            <div id="order-details">
-                <p><a id="pizza-details-dropdown">Custom Pizza</a></p>
-                <ul id="pizza-details"></ul>
-                <p><a id="default-pizza-dropdown">Pizza</a></p>
-                <ul id="default-pizza-details"></ul>
-                <p><a id="sides-dropdown">Sides</a></p>
-                <ul id="sides-details"></ul>
+                <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
+                <h3><span id="delivery-option"></span></h3>
             </div>
-            <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
-            <h3><span id="delivery-option"></span></h3>
         </div>
     </div>
+    <div class="about-text">
+        <h2>About Habesha Pizza</h2>
+        <P>Habesha Pizza was established on April 19, 2007. Our first house was located in Ethiopia, Addis Ababa.
+        </P>
+        <h3>Why Habesha?</h3>
+        <p>Habesha (ሐበሻ) is the name give for Ethiopian people. Since we first launched in Ethiopia, we named our
+            Pizza
+            house
+            the HABESHA PIZZA HOUSE.</p>
+        <p>Habesha Pizza has it's pizza houses in Ethiopia, Kenya, South-Africa and Egypt.</p>
+        <p>Now, we have started an online ordering and delivery.<br /> ENJOY!</p>
+    </div>
 
-
-    <br />
-    <br />
 </body>
 
 </html>

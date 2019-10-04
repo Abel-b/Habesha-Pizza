@@ -43,8 +43,9 @@ img {
     color:black;
     padding-top: 50px;
 }
-  .form-control {
-          background: transparent;
+
+.form-control {
+    background: transparent;
   }
 .grid {
     padding-left: 150px;
@@ -59,33 +60,27 @@ img {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
-  }
-  #price-content {
+}
+#price-content {
     margin-top: 100px;
-  }
+}
   
-  .page-header {
-    font-size: 65pt;
-    margin-bottom: 75px;
-    padding-bottom: 35px;
-  }
-  
-  #address-form {
+#address-form {
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
-  }
+}
   
-  .address-spacing {
+.address-spacing {
     margin-bottom: 20px;
-  }
+}
   
-  #state-select {
+#state-select {
     margin-top: 0px;
-  }
+}
 #address, #pizza-details-dropdown, #pizza-details, #default-pizza-dropdown, #default-pizza-details, #sides-dropdown, #sides-details {
     display: none;
-  }
+}
   
 .order-img {
     background-image: url('../images/backgrounds/boxxed.jpg');
@@ -102,186 +97,126 @@ img {
 #pickup-btn, #delivery-btn, #custom-pizza-btn, #submit-custom-pizza {
     font-size: 20pt;
     margin-top: 30px;
-  }
+}
   
-  #custom-pizza-btn {
+#custom-pizza-btn {
     display: none;
-  }
+}
   
-  #pickup-btn, #delivery-btn {
+#pickup-btn, #delivery-btn {
+    padding-left:300px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-  }
+}
   
-  #order-proceed-btn {
+#order-proceed-btn {
     font-size: 20pt;
     margin-top: 50px;
     margin-bottom: 100px;
-  }
+}
   
-  #checkout-btn {
+#checkout-btn {
     font-size: 20pt;
     margin-top: 50px;
     margin-bottom: 40px;
-  }
+}
   
-  #submit-custom-pizza {
+#submit-custom-pizza {
     margin-bottom: 35px;
-  }
-  #form-header {
-    color: #FFFFFF;
+}
+#form-header {
+    color: White;
     font-size: 20pt;
     margin-bottom: 35px;
-  }
+}
   
-  #form-content {
+#form-content {
     margin-top: 25px;
     margin-bottom: 50px;
     margin-left: -35px;
-  }
+}
   
-  #custom-pizza {
-    display: none;
+#custom-pizza {
     margin-top: 30px;
     border-style: solid;
     border-color: #006699;
-    background-color: #006699;
+    background-color: grey;
     border-radius: 15%;
     margin-left: 70px;
     margin-right: 70px;
-  }
+}
   
-  select {
+select {
     margin-top: 15px;
-  }
+}
   #order-details, #default-pizza-details {
     text-align: left;
     margin-top: 10px;
-  }
+}
   
-  p {
+p {
     margin-top: 5px;
-  }
+}
   
-  ul {
+ul {
     font-size: 13pt;
-  }
-  #default-pizzas {
+}
+#default-pizzas {
     display: none;
-  }
+}
   
-  .pizza-option, .side-option {
+.pizza-option, .side-option {
     width: 170px;
     height: 180px;
     font-size: 20pt;
     margin-top: 20px;
     margin-bottom: 10px;
-  }
+}
   
-  #cheese-default-size, #pep-default-size, #veggie-default-size {
+#cheese-default-size, #pep-default-size, #veggie-default-size {
     display: none;
-  }
+}
   
-  .indiv-pizza-default {
+.indiv-pizza-default {
     margin-top: 5px;
     margin-bottom: 5px;
-  }
+}
       
 div.label {
- margin: 0;
- padding: 0;
- margin-top: 1.125em;
- margin-bottom: 0.125em;
- font-size: 100%;
- font-weight: bold;
- color: orange;
- display: block;
- text-align: left;
- }
-
- div.group {
- margin: 0;
- padding: 0;
- margin-top: 1.25em;
- }
-
- div.group div.title {
- margin: 0;
- padding: 0;
- font-weight: bold;
- }
-
- div.group div.label {
- margin: 0;
- padding: 0;
- margin-top: 0.25em;
- margin-bottom: 0.25em;
- font-weight: normal;
- }
-
- input[type="submit"] {
- margin-top: 2em;
- }
-.design, .development, .product {
-    display: none;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.125em;
+    margin-bottom: 0.125em;
+    font-size: 100%;
+    font-weight: bold;
+    color: orange;
+    display: block;
+    text-align: left;
 }
 
-.black,
-.mighty,
-.orange,
-.video,
-.web,
-.sound,
-.burned,
-.giraffe {
-    display: none;
-    opacity: 1;
-    text-align: center;
-    z-index: 10;
-    position: relative;
-    top:-100px;
-    color: greenyellow;
+div.group {
+    margin: 0;
+    padding: 0;
+    margin-top: 1.25em;
 }
-.hover-box {
-    top: 0px; left: 0px;
+
+div.group div.title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
 }
-img, h6 {
-    color: rgb(27, 27, 59)
+
+div.group div.label {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    font-weight: normal;
 }
-h2 {
-    text-align: center;
-}
-.name, .email, .message, .submit {
-    background: transparent;
-    color: white;
-}
-.message {
-    width: 50%;
-}
-.name, .email {
-    padding-left: 0px;
-    width: 25%;
-    color: white;
-}
-.inputs {
-    padding-left: 20%;
-}
-::placeholder {
-    color: white;
-}
-.contact-img {
-    background-image: url('../images/backgrounds/c_image.jpg');
-    color: white;
-    width: auto;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.social-imgs {
-    padding-left: 30px;
-    text-align: center;
+
+input[type="submit"] {
+    margin-top: 2em;
 }
 body {
     padding: 0;
