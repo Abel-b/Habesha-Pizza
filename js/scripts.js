@@ -49,6 +49,11 @@ function Address(streetAddress, city, state, zipcode) {
 
 
 $(document).ready(function () {
+    $("#pickup-btn").click(function () {
+        $("#order-content").show();
+        $("#content").hide();
+        $("#delivery-option").text("PICKUP BY CUSTOMER");
+    });
 
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
