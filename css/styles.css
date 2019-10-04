@@ -19,7 +19,11 @@ img {
 .contentsC, .contentsP, .contentsM, .contentsV, .contentsE, .contentsH {
     display: none;
 }
-.about{
+#nav {
+    padding-left: 800px;
+    color: white;
+}
+#about{
     background-image: url('../images/backgrounds/Welcome.png');
     height: 800px;
     width: auto;
@@ -39,6 +43,9 @@ img {
     color:black;
     padding-top: 50px;
 }
+  .form-control {
+          background: transparent;
+  }
 .grid {
     padding-left: 150px;
 }
@@ -55,10 +62,43 @@ img {
     text-align: center;
 }
 .order-text {
-    padding-top: 350px;
     padding-right: 450px;
-    
 }
+div.label {
+ margin: 0;
+ padding: 0;
+ margin-top: 1.125em;
+ margin-bottom: 0.125em;
+ font-size: 100%;
+ font-weight: bold;
+ color: orange;
+ display: block;
+ text-align: left;
+ }
+
+ div.group {
+ margin: 0;
+ padding: 0;
+ margin-top: 1.25em;
+ }
+
+ div.group div.title {
+ margin: 0;
+ padding: 0;
+ font-weight: bold;
+ }
+
+ div.group div.label {
+ margin: 0;
+ padding: 0;
+ margin-top: 0.25em;
+ margin-bottom: 0.25em;
+ font-weight: normal;
+ }
+
+ input[type="submit"] {
+ margin-top: 2em;
+ }
 .design, .development, .product {
     display: none;
     text-align: center;
