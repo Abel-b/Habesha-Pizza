@@ -52,6 +52,38 @@ img {
 .image-row {
     padding-left: 200px;
 }
+#order-content {
+    /*display: none;*/
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #price-content {
+    margin-top: 100px;
+  }
+  
+  .page-header {
+    font-size: 65pt;
+    margin-bottom: 75px;
+    padding-bottom: 35px;
+  }
+  
+  #address-form {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .address-spacing {
+    margin-bottom: 20px;
+  }
+  
+  #state-select {
+    margin-top: 0px;
+  }
+  
 .order-img {
     background-image: url('../images/backgrounds/boxxed.jpg');
     color: orange;
