@@ -89,6 +89,9 @@ $(document).ready(function () {
     $("#pizza-details-dropdown").click(function() {
         $("#pizza-details").toggle();
       });
+    $("#checkout-btn").click(function() {
+        location.reload();
+    });
 
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
