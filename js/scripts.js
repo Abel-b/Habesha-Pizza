@@ -54,6 +54,10 @@ $(document).ready(function () {
         $("#content").hide();
         $("#delivery-option").text("PICKUP BY CUSTOMER");
     });
+    $("#delivery-btn").click(function() {
+        $("#address").show();
+        $("#pickup-btn,#delivery-btn,#landing-tagline").hide();
+      });
 
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
