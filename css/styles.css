@@ -1,12 +1,32 @@
 .welcome-img{
-    background-image: url('../images/backgrounds/hd\ pizza.jpg');
-    height: 800px;
+    height: 500px;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: orange;
+    animation: animate 16s ease-in-out infinite;
 }
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url('../images/backgrounds/hd\ pizza.jpg');
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    50%{
+        background-image: url('../images/backgrounds/uhd.jpg');
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+}
+
 .welcome-text {
     padding-left: 51%;
     padding-top: 23.5%;
@@ -38,6 +58,7 @@ img {
     height: 400px;
     width: auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     text-align: center;
     color:black;
@@ -49,6 +70,9 @@ img {
   }
 .grid {
     padding-left: 150px;
+}
+h6 {
+    text-align: right;
 }
 .image-row {
     padding-left: 200px;
