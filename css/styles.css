@@ -86,6 +86,7 @@ h6 {
 }
 #address, #pizza-details-dropdown, #pizza-details, #default-pizza-dropdown, #default-pizza-details, #sides-dropdown, #sides-details {
     display: none;
+    cursor: pointer;
 }
 #address {
     background-image: url('../images/backgrounds/wooden.jpg');
