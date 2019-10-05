@@ -57,7 +57,18 @@ $(document).ready(function () {
     $("#delivery-btn").click(function() {
         $("#address").show();
         $("#pickup-btn,#delivery-btn,#landing-tagline").hide();
-      });
+    });
+    $("form#address-form").submit(function(event) {
+        event.preventDefault();
+        var streetAddress = $("input#street-add").val();
+        var city = $("input#city-add").val();
+        var state = $("select#state-select").val();
+        var zipcode = $("input#zip-add").val();
+        var newAddress = new Address(streetAddress, city, state, zipcode)
+        $("#order-content").show();
+        $("#landing-content").hide();
+        $("#delivery-option").text("DELIVER TO: " + newAddress.deliveryAddress);
+    });
 
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
