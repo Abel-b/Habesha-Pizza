@@ -86,6 +86,9 @@ $(document).ready(function () {
         $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
         $("#size, #sauce, #cheese, #veggie1, #veggie2, #meat").val("");
     });
+    $("#pizza-details-dropdown").click(function() {
+        $("#pizza-details").toggle();
+      });
 
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
