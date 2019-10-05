@@ -92,83 +92,6 @@ $(document).ready(function () {
         alert($("#delivery-option").text());
         location.reload();
     });
-    $("#add-order").click(function () {
-        $("#custom-pizza").append('<div id="form-content">' +
-            '<h3 id="form-header">Custom Pizza Form</h3>' +
-            '<div class="row container">' +
-                '<div class="col-md-6">' +
-                    '<p>Size</p>' +
-                '</div>' +
-                '<div class="col-md-6" class="form-option">' +
-                    '<select required class="form-control" id="size">' +
-                        '<option></option>' +
-                        '<option value="Small 10 in.">Small, 12"</option>' +
-                        '<option value="Medium 14 in.">Medium, 16"</option>' +
-                        '<option value="Large 18 in.">Large, 20"</option>' +
-                    '</select>' +
-                '</div>' +
-            '</div>' +
-            '<div class="row container">' +
-                '<div class="col-md-6">' +
-                    '<p>Crust</p>' +
-                '</div>' +
-                '<div class="col-md-6" class="form-option">' +
-                    '<select required class="form-control" id="sauce">' +
-                        '<option></option>' +
-                        '<option value="tomato sauce">Crispy</option>' +
-                        '<option value="alfredo sauce">Gluten free</option>' +
-                        '<option value="alfredo sauce">Stuffed</option>' +
-                    '</select>' +
-                '</div>' +
-            '</div>' +
-            '<div class="row container">' +
-                '<div class="col-md-6">' +
-                    '<p>Toppings</p>' +
-                '</div>' +
-                '<div class="col-md-6" class="form-option">' +
-                    '<select required class="form-control" id="cheese">' +
-                        '<option></option>' +
-                        '<option value="cheese">Cheese</option>' +
-                        '<option value="pepperoni">Pepperoni</option>' +
-                        '<option value="margherita">Margherita</option>' +
-                        '<option value="veggie">Veggie</option>' +
-                        '<option value="extreme">Extreme</option>' +
-                        '<option value="special habesha">Special Habesha</option>' +
-                    '</select>' +
-                '</div>' +
-            '</div>' +
-            '<div class="row container">' +
-                '<div class="col-md-6">' +
-                    '<p>Veggie 1</p>' +
-                '</div>' +
-                '<div class="col-md-6" class="form-option">' +
-                    '<select required class="form-control" id="veggie1">' +
-                        '<option></option>' +
-                        '<option value="onions">Onions</option>' +
-                        '<option value="green peppers">Green Peppers</option>' +
-                        '<option value="olives">Black Olives</option>' +
-                        '<option value="spinach">Spinach</option>' +
-                        '<option value="mushrooms">Mushrooms</option>' +
-                    '</select>' +
-                '</div>' +
-            '</div>' +
-            '<div class="row container">' +
-                '<div class="col-md-6">' +
-                    '<p>Meat</p>' +
-                '</div>' +
-                '<div class="col-md-6" class="form-option">' +
-                    '<select required class="form-control" id="meat">' +
-                        '<option></option>' +
-                        '<option value="chicken">Chicken</option>' +
-                        '<option value="pepperoni">Pepperoni</option>' +
-                        '<option value="bacon">Canadian Bacon</option>' +
-                        '<option value="sausage">Sausage</option>' +
-                        '<option value="sausage">None</option>' +
-                    '</select>' +
-                '</div>' +
-            '</div>' +
-        '</div>');
-    });
     $(".clickable").click(function () {
         $(".contentsC").fadeToggle();
         $(".cheese").fadeToggle();
@@ -193,11 +116,5 @@ $(document).ready(function () {
         $(".contentsH").fadeToggle();
         $(".special").fadeToggle();
     });
-
-
-
-
-
-
 
 });
