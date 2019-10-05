@@ -10,7 +10,7 @@
     padding-top: 20%;
 }
 #menu {
-    color: orange;
+    color: black;
 }
 img {
     height: 125px;
@@ -19,7 +19,7 @@ img {
 }
 .contentsC, .contentsP, .contentsM, .contentsV, .contentsE, .contentsH {
     display: none;
-    color: orange;
+    color: black;
 }
 #nav {
     padding-left: 900px;
@@ -60,7 +60,7 @@ h6 {
 }
 #order-content {
     display: none;
-    color: orange;
+    color: wheat;
     background-color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -87,18 +87,12 @@ h6 {
 #address, #pizza-details-dropdown, #pizza-details, #default-pizza-dropdown, #default-pizza-details, #sides-dropdown, #sides-details {
     display: none;
 }
-  
-.order-img {
-    background-image: url('../images/backgrounds/boxxed.jpg');
-    color: orange;
-    height: 700px;
+#address {
+    background-image: url('../images/backgrounds/wooden.jpg');
+    height: 500px;
     width: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
-}
-.order-text {
-    padding-right: 450px;
+    color: whitesmoke;
 }
 #pickup-btn, #delivery-btn, #custom-pizza-btn, #submit-custom-pizza {
     font-size: 20pt;
