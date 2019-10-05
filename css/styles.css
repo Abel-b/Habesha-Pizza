@@ -1,35 +1,16 @@
 .welcome-img{
-    height: 500px;
-    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: orange;
     animation: animate 16s ease-in-out infinite;
 }
-
-@keyframes animate{
-    0%, 100%{
-        background-image: url('../images/backgrounds/hd\ pizza.jpg');
-        height: 700px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-    }
-    50%{
-        background-image: url('../images/backgrounds/uhd.jpg');
-        height: 700px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-    }
-}
-
 .welcome-text {
     padding-left: 51%;
     padding-top: 23.5%;
+}
+#menu {
+    color: orange;
 }
 img {
     height: 125px;
@@ -38,6 +19,7 @@ img {
 }
 .contentsC, .contentsP, .contentsM, .contentsV, .contentsE, .contentsH {
     display: none;
+    color: orange;
 }
 #nav {
     padding-left: 800px;
@@ -249,6 +231,25 @@ body {
 div {
     width: 100%;
 }
+@keyframes animate{
+    0%, 100%{
+        background-image: url('../images/backgrounds/hd\ pizza.jpg');
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    50%{
+        background-image: url('../images/backgrounds/uhd.jpg');
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     #images-box {
       flex-direction: column;
