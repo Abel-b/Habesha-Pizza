@@ -89,7 +89,7 @@ $(document).ready(function () {
         $("#pizza-details").toggle();
     });
     $("#checkout-btn").click(function () {
-        alert("newAddress.deliveryAddress");
+        alert($("#delivery-option").text());
         location.reload();
     });
 

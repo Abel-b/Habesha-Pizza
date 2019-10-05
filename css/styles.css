@@ -7,7 +7,7 @@
 }
 .welcome-text {
     padding-left: 51%;
-    padding-top: 23.5%;
+    padding-top: 20%;
 }
 #menu {
     color: orange;
@@ -22,8 +22,7 @@ img {
     color: orange;
 }
 #nav {
-    padding-left: 800px;
-    color: white;
+    padding-left: 900px;
 }
 #about{
     background-image: url('../images/backgrounds/Welcome.png');
@@ -66,6 +65,7 @@ h6 {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
+    background-image: url('../images/backgrounds/wooden.jpg')
 }
 #price-content {
     margin-top: 100px;

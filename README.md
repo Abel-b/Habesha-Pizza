@@ -1,10 +1,10 @@
-# Delani Studio
+# Habesha Pizza
 
-#### This is a website for a studio named Delani Studio, Sept 29, 2019.
+#### This is a website for Habesha Pizza Online Order, Oct 5, 2019.
 
 ## Description
 
-This project is a website for a fictional studio (Delani).
+This project is a website for Habesha Pizza Online Order.
 
 ## Author: Abel Berhane, student at Moringa School.
 
