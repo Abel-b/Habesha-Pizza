@@ -1,10 +1,11 @@
 var totalPriceArray = [];
-function Order(customSize, cheese, amount) {
+function Order(customSize, cheese, cheese1) {
     this.customSize = customSize;
-    this.sauce = 1;
+    this.sauce = 100;
     this.cheese = cheese;
-    this.veggie1 = 1;
-    this.meat = 2;
+    this.cheese1 = cheese1;
+    this.veggie1 = 50;
+    this.meat = 200;
     this.pizzaPrice = 0;
 }
 Order.prototype.pizzaCost = function () {
@@ -28,6 +29,20 @@ Order.prototype.pizzaCost = function () {
     } else if (this.cheese === "special habesha") {
         this.pizzaPrice += 150;
     }
+    if (this.cheese1 === "cheese") {
+        this.pizzaPrice += 200;
+    } else if (this.cheese1 === "pepperoni") {
+        this.pizzaPrice += 350;
+    } else if (this.cheese1 === "margherita") {
+        this.pizzaPrice += 320;
+    } else if (this.cheese1 === "veggie") {
+        this.pizzaPrice += 150;
+    } else if (this.cheese1 === "extreme") {
+        this.pizzaPrice += 450;
+    } else if (this.cheese1 === "special habesha") {
+        this.pizzaPrice += 150;
+    }
+
     this.pizzaPrice += this.sauce;
     this.pizzaPrice += this.veggie1;
     this.pizzaPrice += this.meat;
@@ -74,16 +89,17 @@ $(document).ready(function () {
         var customSize = $("select#size").val();
         var sauce = $("select#sauce").val();
         var cheese = $("select#cheese").val();
+        var cheese1 = $("select#cheese1").val();
         var veggie1 = $("select#veggie1").val();
         var meat = $("select#meat").val();
-        var pizzaDetails = (customSize + " - " + sauce + ", " + cheese + ", " + veggie1 + ", " + meat);
-        var newPizzaOrder = new Order(customSize, cheese);
+        var pizzaDetails = (customSize + " - " + sauce + ", " + cheese + ", " + cheese1 + ", " + veggie1 + ", " + meat);
+        var newPizzaOrder = new Order(customSize, cheese, cheese1);
         newPizzaOrder.pizzaCost();
         totalPriceArray.push(newPizzaOrder.pizzaPrice);
         $("#pizza-details-dropdown").show();
         $("#final-cost").text(newPizzaOrder.finalCost());
-        $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
-        $("#size, #cheese, #sauce, #veggie1, #meat").val("");
+        $("#pizza-details").append("<ul><li>" + pizzaDetails + " " + newPizzaOrder.pizzaPrice + "</li></ul>");
+        $("#size, #cheese, #cheese1, #sauce, #veggie1, #meat").val("");
     });
     $("#pizza-details-dropdown").click(function () {
         $("#pizza-details").toggle();

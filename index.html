@@ -130,9 +130,9 @@
                         <label for="state-name">State</label>
                         <select required class="form-control delivery-address" id="state-select">
                             <option></option>
-                            <option>Nairobi</option>
-                            <option>Mombassa</option>
-                            <option>Kisumu</option>
+                            <option>Nairobi (200Ksh)</option>
+                            <option>Mombassa (300Ksh)</option>
+                            <option>Kisumu (250Ksh)</option>
                         </select>
                     </div>
                 </div>
@@ -195,9 +195,9 @@
                             <div class="col-md-6" class="form-option">
                                 <select required class="form-control" id="size">
                                     <option></option>
-                                    <option value="Small 10 in.">Small, 12"</option>
-                                    <option value="Medium 14 in.">Medium, 16"</option>
-                                    <option value="Large 18 in.">Large, 20"</option>
+                                    <option value="Small 12 in.">Small, 12"</option>
+                                    <option value="Medium 16 in.">Medium, 16"</option>
+                                    <option value="Large 20 in.">Large, 20"</option>
                                 </select>
                             </div>
                         </div>
@@ -232,7 +232,23 @@
                         </div>
                         <div class="row container">
                             <div class="col-md-6">
-                                <p>Veggie 1</p>
+                                <p>Toppings 2</p>
+                            </div>
+                            <div class="col-md-6" class="form-option1">
+                                <select class="form-control" id="cheese1">
+                                    <option></option>
+                                    <option value="cheese">Cheese</option>
+                                    <option value="pepperoni">Pepperoni</option>
+                                    <option value="margherita">Margherita</option>
+                                    <option value="veggie">Veggie</option>
+                                    <option value="extreme">Extreme</option>
+                                    <option value="special habesha">Special Habesha</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row container">
+                            <div class="col-md-6">
+                                <p>Veggie</p>
                             </div>
                             <div class="col-md-6" class="form-option">
                                 <select required class="form-control" id="veggie1">
@@ -242,6 +258,7 @@
                                     <option value="olives">Black Olives</option>
                                     <option value="spinach">Spinach</option>
                                     <option value="mushrooms">Mushrooms</option>
+                                    <option value="None">None</option>
                                 </select>
                             </div>
                         </div>
@@ -266,7 +283,7 @@
             </div>
             <div class="col-md-6" id="price-content">
                 <h1 class="page-header">Cart</h1>
-                <h2>Price: Ksh <span id="final-cost"></span></h2>
+                <h2>Total Price: Ksh <span id="final-cost"></span></h2>
                 <div id="order-details">
                     <p><a id="pizza-details-dropdown">Your Habesha Pizza</a></p>
                     <ul id="pizza-details"></ul>
