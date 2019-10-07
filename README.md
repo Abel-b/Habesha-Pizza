@@ -28,7 +28,7 @@ This project is a website for Habesha Pizza Online Order.
 
 ## Link to website
 
-[website](https://abel-b.github.io/Delani-Studio/)
+[website](https://abel-b.github.io/Habesha-Pizza/)
 
 ### License and Copyright
 
